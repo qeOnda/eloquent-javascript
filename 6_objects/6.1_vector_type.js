@@ -10,7 +10,7 @@ class Vec {
         return new Vec((this.x - vec.x), (this.y - vec.y));
     } 
     get length() {
-        return Math.floor(Math.sqrt(this.x * this.x + this.y * this.y));
+        return Math.floor(Math.sqrt((this.x * this.x) + (this.y * this.y)));
     }
 }
 
