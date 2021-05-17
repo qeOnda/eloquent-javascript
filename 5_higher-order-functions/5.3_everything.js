@@ -1,3 +1,9 @@
+/*
+Implement every as a function that takes an array and a predicate function as parameters. 
+Write two versions, one using a loop and one using the some method.
+*/
+
+
 function every(array, test) {
     return array.every(test)
 }

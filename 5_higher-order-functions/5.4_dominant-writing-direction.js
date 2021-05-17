@@ -1,3 +1,9 @@
+/*
+Write a function that computes the dominant writing direction in a string of text. 
+Remember that each script object has a direction property that can be "ltr" (left to right), 
+"rtl" (right to left), or "ttb" (top to bottom).
+*/
+
 // Takes code and finds language object whose range includes given code
 function characterScript(code) {
   for (let script of SCRIPTS) {
